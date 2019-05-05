@@ -1,9 +1,9 @@
 #+TITLE: Example Presentation
 #+AUTHOR: Stuart Sierra
 
-#+BEGIN_HTML
+#+BEGIN_EXPORT html
 <p>Type <strong>T</strong> to begin the slide show.</p>
-#+END_HTML
+#+END_EXPORT
 
 * Org-HTML-Slideshow                                                  :slide:
 
@@ -145,9 +145,9 @@ Sometimes it's safest to add an "empty" heading at the end of your document to m
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="src/css/projection.css" media="projection" />
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="src/css/presenter.css" media="presenter" />
 
-#+BEGIN_HTML
+#+BEGIN_EXPORT html
 <script type="text/javascript" src="production/org-html-slideshow.js"></script>
-#+END_HTML
+#+END_EXPORT
 
 # Local Variables:
 # org-html-head-include-default-style: nil
